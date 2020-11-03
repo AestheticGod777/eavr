@@ -7,4 +7,41 @@ and open the template in the editor.
     Created on : 2020.11.03., 13:19:18
     Author     : user
 */
-
+body{
+    background-image: url("../kepek/hatter.png") 
+}
+*{
+    text-align: center;
+}
+.cim{
+    color: white;
+    background-color: #D1103B;
+    padding:15px;
+    margin-left:450px ;
+    margin-right:450px;
+    border: darkred 5px solid;
+    border-radius: 15px;
+    font-size: 20px;
+   min-height: 100px;
+   min-width: 350px;
+ 
+}
+.elso{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+a{
+    color:white;
+    padding: 30px;
+    background-color: #5F5F5F;
+    max-width:30px;
+    max-height:30px ;
+    margin-right: 15px;
+    border: #181818 2px solid;
+}
+a:hover{
+    background-color: #7F7F7F;
+}
+a:active{
+    background-color: #9F9F9F;
+}
