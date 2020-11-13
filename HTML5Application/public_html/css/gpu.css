@@ -70,3 +70,17 @@ a:active{
     border: darkred 5px solid;
     
 }
+.szoveg{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 80px;
+    
+}
+
+
+img{
+ height:400px; 
+ width: 700px;
+ border: white 2px solid; 
+ border-radius: 20px;
+}
