@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2020.11.10., 13:28:00
+    Author     : user
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2020. nov. 3., 20:07:27
+    Author     : Boldi
+*/
+
+*{
+    text-align: center;
+    
+}
+body{
+    background-image: url("../kepek/hatter.png") ;
+    margin-top:0px;
+}
+p{
+    padding: 0px;
+    
+}
+.szoveg{
+    color: white;
+    font-size: 30px;
+    background-color: #7F7F7F;
+    border: white 2px solid;
+    border-radius: 30px;
+    
+}
+.cim{
+    color: white;
+    background-color: #D1103B;
+    padding:15px;
+    margin-left:450px ;
+    margin-right:450px;
+    margin-bottom: 30px;
+    border: darkred 5px solid;
+    border-radius: 15px;
+    font-size: 20px;
+   min-height: 100px;
+   min-width: 350px;
+}
+.menu{
+    margin-bottom: 30px;
+    background-color: #5F5F5F;
+    padding: 20px;
+    border:darkgrey 1px solid ;
+    border-radius: 10px;
+}
+a{
+    font-size: 30px;
+    color:white;
+    background-color: #5F5F5F;
+    padding:15px;
+    margin-right: 40px;
+    border-radius: 2px;
+    border:darkgrey 3px solid;;
+}
+a:hover{
+    background-color: #7F7F7F;
+}
+a:active{
+    background-color: #9F9F9F;
+}
+#aktiv{
+    background-color: #D1103B;
+    border: darkred 5px solid;
+    
+}
+.kombo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+      
+}
+.szoveg {
+  font-size: 25px;
+  margin-left:20px;
+  margin-right:80px;
+
+}
+img{
+ height:400px; 
+ width: 700px;
+ border: white 2px solid; 
+ border-radius: 20px;
+}
