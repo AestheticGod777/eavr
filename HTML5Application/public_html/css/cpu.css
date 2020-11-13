@@ -69,4 +69,18 @@ a:active{
     background-color: #D1103B;
     border: darkred 5px solid;
     
+}   
+
+.szoveg {
+  font-size: 25px;
+  margin-left:20px;
+  margin-right:20px;
+
+}
+img{
+ margin-top: 30px;
+ height:400px; 
+ width: 700px;
+ border: white 2px solid; 
+ border-radius: 20px;
 }
