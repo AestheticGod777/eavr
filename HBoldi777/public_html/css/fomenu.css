@@ -30,6 +30,12 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.masodik{
+    margin-bottom: 0px;
+}
+.harmadik{
+    margin-top: 100px;
+}
 a{
    color:white;
 
