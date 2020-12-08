@@ -62,18 +62,37 @@ a:active{
     border: darkred 5px solid;
     
 }
-.szoveg{
-    font-size: 20px;
-    margin-left: 20px;
-    margin-right: 80px;
-    
+li{
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.alaplap-szoveg2{
+    background-color: #4F4F4F;
+    border: white 2px solid;
+    margin-top: 0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    border-radius: 30px; 
+}
+.alaplap-sor{
+    margin-top: 20px;
 }
 
-
 img{
+ margin-top: 30px;
  height:400px; 
  width: 700px;
  border: white 2px solid; 
  border-radius: 20px;
- margin-top: 12px;
+}
+#psu-bal{
+    margin-right: 12px;
+}
+.ram-kombo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+       
 }

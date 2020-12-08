@@ -9,20 +9,12 @@ and open the template in the editor.
         <title>GPU</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../css/gpu.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/index.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/load.js" type="text/javascript"></script>
     </head>
-    <body>
+    <body onload="loadHTML('menu.html', 'menu');">
         
-        <div class="menu">
-        <a href=".fomenu.html">Főoldal</a>
-        <a href="cpu.html">CPU</a>
-        <a id="aktiv" href="gpu.html">GPU</a>
-        <a href="ram.html">RAM</a>
-        <a href="psu.html">PSU</a>
-        <a href="alaplap.html">Alaplap</a>
-        <a href="ssd.html">SSD</a>
-        <a href="hűtés.html">Hűtés</a>
-        </div>
+          <div id="menu"></div>
         
         <div class="cim"> 
             <h1>Videókártya</h1>
@@ -37,7 +29,7 @@ and open the template in the editor.
        </div>
         <div>
             
-            <img src="../kepek/gpu.png" alt="gpu"/>
+            <img id="gpu-kep" src="../kepek/gpu.png" alt="gpu"/>
         </div>
        
        

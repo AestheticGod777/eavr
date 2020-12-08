@@ -9,21 +9,13 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../css/alaplap.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/index.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/load.js" type="text/javascript"></script>
     </head>
-    <body>
+    <body onload="loadHTML('menu.html', 'menu');">
         
-        <div class="menu">
-        <a href=".fomenu.html">Főoldal</a>
-        <a href="cpu.html">CPU</a>
-        <a href="gpu.html">GPU</a>
-        <a href="ram.html">RAM</a>
-        <a href="psu.html">PSU</a>
-        <a id="aktiv" href="alaplap.html">Alaplap</a>
-        <a href="ssd.html">SSD</a>
-        <a href="hűtés.html">Hűtés</a>
-        </div>
-        
+          <div id="menu"></div>
+          
              <div class="cim">  
              <h1>Alaplap</h1>
              </div>  
@@ -31,7 +23,7 @@ and open the template in the editor.
         
        <div class="szoveg"> 
     
-    <p class="szoveg2">Az alaplap a központi vagy elsődleges áramköri lapkája egy számítógépes rendszernek vagy más összetett elektronikai rendszernek.
+    <p class="alaplap-szoveg2">Az alaplap a központi vagy elsődleges áramköri lapkája egy számítógépes rendszernek vagy más összetett elektronikai rendszernek.
 A számítógép elektronikus elemei az alaplapra vagy alapkártyára vannak építve. 
 Az alaplap egy többrétegű nyomtatott áramköri lap, amelyen az egyes elemek fogadására több különböző méretű és alakú csatlakozó, illetve néhány előre beépített eszköz helyezkedik el. 
 Ezek az elemek, illetve a kialakított csatlakozók eleve meghatározzák, hogy az alaplap milyen processzort tud fogadni, milyen frekvencián dolgozik, mekkora a RAM memória, hány és milyen fajtájú bővítőkártyahely található rajta, milyen a felhasználható memória típusa és maximális mérete stb. 
@@ -49,7 +41,7 @@ Itt a legtöbb esetben a következőket találjuk:</p>
    <li>Egyre ritkábban: 1 db párhuzamos nyomtatóport, 1 vagy 2 db soros port</li>
    </div>
    
-   <p class="szoveg2">A számtalan típusban létező gépházak elülső csatlakozói (főleg USB, és általában szabványos 3,5 mm-es jack hang ki- és bemenetek) kábelekkel csatlakoznak az alaplapra.
+   <p class="alaplap-szoveg2">A számtalan típusban létező gépházak elülső csatlakozói (főleg USB, és általában szabványos 3,5 mm-es jack hang ki- és bemenetek) kábelekkel csatlakoznak az alaplapra.
     Az alaplapokon általában megtalálható elemek:</p>
    
    <div class="sor">
