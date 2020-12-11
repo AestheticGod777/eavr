@@ -13,4 +13,5 @@ async function loadHTML(url, id, menuid) {
     const contentDiv = document.getElementById(id);
     contentDiv.innerHTML = await fetchHtmlAsText(url);
     document.getElementById(menuid).classList.add("aktiv");
+    
 }

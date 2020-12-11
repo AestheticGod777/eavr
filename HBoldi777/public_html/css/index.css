@@ -41,6 +41,8 @@ p{
     padding: 20px;
     border:darkgrey 1px solid;
     border-radius: 10px;
+    width: auto;
+    
 }
 a{
     font-size: 30px;
@@ -49,7 +51,9 @@ a{
     padding:15px;
     margin-right: 40px;
     border-radius: 2px;
-    border:darkgrey 3px solid;;
+    border:darkgrey 3px solid;
+    width: auto;
+    height: 33%;
 }
 a:hover{
     background-color: #7F7F7F;
@@ -61,6 +65,12 @@ a:active{
     background-color: #D1103B;
     border: darkred 5px solid;
     
+}
+.aktiv:hover{
+  background-color:#D4324D
+}
+.aktiv:active{
+   background-color: #F5324E;
 }
 li{
     margin-bottom: 15px;
