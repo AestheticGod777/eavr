@@ -35,7 +35,7 @@ p{
    min-height: 100px;
    min-width: 350px;
 }
-.menu{
+#menu{
     margin-bottom: 30px;
     background-color: #5F5F5F;
     padding: 20px;
@@ -57,7 +57,7 @@ a:hover{
 a:active{
     background-color: #9F9F9F;
 }
-#aktiv{
+.aktiv{
     background-color: #D1103B;
     border: darkred 5px solid;
     
