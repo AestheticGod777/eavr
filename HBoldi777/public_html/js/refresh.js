@@ -1,0 +1,4 @@
+
+function onloadwebpage(){
+location.reload();
+}
