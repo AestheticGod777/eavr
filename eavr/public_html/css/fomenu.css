@@ -1,0 +1,71 @@
+@font-face {
+  font-family: stylee;
+  src: url(../font/Minalis_Bold_Demo.otf);
+}
+body{
+    background-image: url("../kepek/hatter.png");
+}
+*{
+    text-align: center;
+}
+.cim{
+    color: white;
+    background-color: #D1103B;
+    padding:15px;
+    margin-left:20%;
+    margin-right:20%;
+    border: darkred 5px solid;
+    border-radius: 15px;
+    font-size: 20px;
+    min-height: 5%;
+    min-width: 10%;
+}
+h1{
+    font-family: stylee;
+}
+.elso{
+    margin-top: 2%;
+    margin-bottom: 2%x;
+}
+.masodik{
+    margin-bottom: 0px;
+}
+.harmadik{
+    margin-top: 2%x;
+}
+img{
+  height: 3%;
+    width: 25%;
+    border: white 3px solid;
+    border-radius: 25px;
+ 
+}
+a:hover>img{
+   filter: blur(2px);
+  -webkit-filter: blur(2px); 
+}
+a:active>img{
+   filter: blur(4px);
+  -webkit-filter: blur(4px); 
+}
+.kozep{
+  position: absolute;
+  top: -810%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 300px;
+}
+a{
+  position: relative;
+  margin-right: 35px;
+}
+h3{
+    font-family: stylee;
+    color: white;
+    font-size: 100px;
+    -webkit-text-stroke: 3px black;
+    font-weight: bold;
+}
+a:hover>.kozep>h3{
+    text-decoration: underline;
+}
